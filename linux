@@ -1,0 +1,67 @@
+1) Tar
+tar -cf archive.tar directory/
+tar -cf archive.tar file1.txt file2.txt
+
+2) Untar
+tar -xvf archive.tar
+tar -xvf archive.tar -C /path/to/destination
+
+3) TAR and GZIP 
+tar -czf archive.tar.gz directory/
+
+4)UNTAR AND UNGZIP
+tar -xzf archive.tar.gz
+
+
+=====================
+
+# Part 2
+|Command|Description|Example|Screenshot|
+|--|--|--|--|
+
+| `grep` | Finds text based on specific words or patterns in a file or the output of other commands.
+| `grep '[0-9]\{5\}-[0-9]\{6\}' science.txt` | ![](img/grepcommand.png)|
+
+
+| `ifconfig` | Displays IP addresses as well as assigning an IP address to a specific network interface. Another function is enabling or disabling network interfaces. | `ifconfig` | ![](img/ifconfigcommand.png)|
+
+
+==============================
+
+# Part 3
+
+
+
+| Task | Command | Screenshot |
+
+|----------|----------|----------|
+
+| Navigate to your home directory and create a directory using <SGL> rules named lab1<SGL> | `mkdir lab1gbl72`   | ![](img/task1.PNG)  |
+
+| Create the data structure in this document’s “Submission Requirements” section using CLI.   | `cd lab1gbl72 mkdir part1 mkdir part2 mkdir part3 mkdir part2/img mkdir part3/img`   | ![](img/task2.PNG)    |
+
+| Install the cowsay command, and run it. Record how you installed the package via the command line and the GUI. | `sudo apt install cowsay cowsay Hi Giuseppe`   | ![](img/task3.PNG) |
+
+==================================
+
+
+| Column 1 Heading | Column 2 Heading |
+|-----------------|-----------------|
+| Row 1, Column 1 | Row 1, Column 2 |
+| Row 2, Column 1 | Row 2, Column 2 |
+
+
+=========================================
+
+lsblk
+sfsimage -i /dev/sda5 temp2.sfs 
+sfsimage -l temp2.sfs 
+
+ls -lh
+sfsimage -m temp1.sfs 
+mmls temp1.sfs.d/image.raw 
+sfsimage -u temp1.sfs.d
+
+
+https://linuxcomandsdouglascollege.s3.amazonaws.com/index.html
+https://linuxcomandsdouglascollege.s3.amazonaws.com/Commands.txt
